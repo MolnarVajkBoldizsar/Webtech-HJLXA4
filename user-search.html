@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <title>GitHub Felhasználó Kereső</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>GitHub Felhasználók Keresése</h1>
+        
+        <div class="card">
+            <input type="text" id="searchInput" placeholder="Írd be a felhasználónevet...">
+            <button class="btn btn-primary" onclick="searchUsers()">Keresés</button>
+        </div>
+
+        <div id="results" class="row">
+            </div>
+    </div>
+
+    <script src="app.js"></script> <script>
+        // A korábban mutatott navigáció betöltő kódod
+        loadNavigation();
+    </script>
+</body>
+</html>
