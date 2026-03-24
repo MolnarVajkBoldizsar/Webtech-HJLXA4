@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neumann János Emlékoldal</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            line-height: 1.5;
+            color: #000;
+            background-color: #fff;
+            margin: 0;
+            padding: 40px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        /* Főcím és idézet */
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            font-size: 48px;
+            margin: 0;
+            text-align: center;
+            text-decoration: underline;
+            padding-bottom: 5px;
+        }
+
+        .quote {
+            font-style: italic;
+            font-size: 18px;
+            margin-top: 20px;
+            text-align: right;
+        }
+
+        .quote span {
+            display: block;
+            font-size: 16px;
+            margin-top: 5px;
+        }
+
+        /* Bevezető szöveg */
+        .intro {
+            margin-bottom: 25px;
+            text-align: justify;
+        }
+
+        /* Infobox (Szürke doboz) */
+        #infobox {
+            display: block;
+            width: 320px;
+            background-color: #d1d5db; /* Világosszürke háttér */
+            border: 1px solid #777;
+            padding: 8px;
+            margin-left: 20px;
+            margin-bottom: 20px;
+            box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .infobox-header {
+            background-color: #888;
+            color: #000;
+            font-weight: bold;
+            text-align: center;
+            padding: 5px;
+            margin-bottom: 10px;
+            font-size: 18px;
+        }
+
+        .infobox img {
+            width: 100%;
+            display: block;
+            border: 1px solid #000;
+            margin-bottom: 15px;
+        }
+
+        .infobox-data {
+            font-size: 15px;
+        }
+
+        .infobox-data p {
+            margin: 5px 0;
+        }
+
+        .infobox-data ul {
+            margin: 5px 0;
+            padding-left: 25px;
+        }
+
+        /* Főszöveg */
+        .content-text p {
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+
+        .highlight {
+            font-style: italic;
+            font-weight: bold;
+        }
+
+        /* Tisztítás a float után */
+        .clearfix::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container clearfix">
+    
+    <h1>Neumann János</h1>
+    <p style="font-style: italic; font-size: 18px; font-family: 'Times New Roman', serif; text-align: right; margin: 0; color: #333;">
+        "Young man, in mathematics you don't understand things. You just get used to them."
+    </p>
+    <p style="font-style: italic; font-size: 16px; font-family: 'Times New Roman', serif; text-align: right; margin: 5px 0 0 0; color: #000;">
+        John von Neumann
+    </p>
+    
+
+    <p class="intro">
+        <strong>Margittai Neumann János</strong> (külföldön: <strong>John von Neumann</strong>, született: <strong>Neumann János Lajos</strong>) 
+        (Budapest, 1903. december 28. - Washington, 1957. február 8.) magyar születésű matematikus. 
+        Kvantummechanikai elméleti kutatásai mellett a digitális számítógép elvi alapjainak lefektetésével vált ismertté.
+    </p>
+
+    <aside id="infobox">
+        <div class="infobox-header">Neumann János</div>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/d/d6/John_von_Neumann_ID_badge.png" alt="Neumann János">
+        
+        <div class="infobox-data">
+            <p><strong>Született:</strong> 1903. december 28.</p>
+            <p><strong>Elhunyt:</strong> 1957. február 8. (53 évesen)</p>
+            <p><strong>Ismeretes mint:</strong> matematikus, informatikus, fizikus, egyetemi oktató</p>
+            <p><strong>Állampolgárság:</strong> magyar, amerikai</p>
+            <p><strong>Iskolái:</strong></p>
+            <ul>
+                <li>Budapest-Fasori Evangélikus Gimnázium</li>
+                <li>Frigyes Vilmos Egyetem</li>
+                <li>Magyar Királyi Pázmány Péter Tudományegyetem</li>
+                <li>Zürichi Műegyetem</li>
+                <li>Göttingeni Egyetem</li>
+            </ul>
+        </div>
+    </aside>
+
+    <div class="content-text">
+        <p>
+            Neumann hatalmas hozzájárult a matematikához, a kvantummechanikához, a kvantumelmélethez, a játékelmélethez, az ökonómiához és az informatikához. 
+            Számos olyan fogalom és elv fűződik a nevéhez, mint például a <span class="highlight">Neumann-elv</span> a kvantummechanikában, 
+            a <span class="highlight">Neumann-stabilitáselmélet</span> a játékelméletben, vagy a <span class="highlight">Neumann-eljárás</span> a numerikus analízisben.
+        </p>
+
+        <p>
+            A számítástechnikának Neumann János az egyik legjelentősebb alakja. Ő volt az egyik első, aki felismerte a digitális számítógépek potenciálját. 
+            Neumann olyan alapvető koncepciókat és architektúrákat dolgozott ki, amelyek meghatározóak lettek a mai modern számítógépek tervezésében és működésében. 
+            Nevéhez fűződik a <span class="highlight">"Neumann-architektúra"</span>, amely egy olyan számítógép-architektúra, amelyben a program és az adat ugyanabban a memóriában található.
+        </p>
+
+        <p>
+            Neumann János rendkívül sokoldalú tudós volt, és kutatásai óriási hatást gyakoroltak az informatikára, a matematikára és a tudomány egyéb területeire. 
+            Munkássága és öröksége a mai napig hatással van a modern tudományos és technológiai fejlesztésekre.
+        </p>
+    </div>
+</div>
+
+</body>
+</html>
